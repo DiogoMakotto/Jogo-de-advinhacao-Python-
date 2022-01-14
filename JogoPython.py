@@ -19,6 +19,7 @@ for rodada in range(1, total_tentativas + 1):                              ## Co
     maior   = chute > numero_secreto
     menor   = chute < numero_secreto
 
+
     if acertou:                   ## Mensagem de acerto ##
         print("Você acertou!")
         break
